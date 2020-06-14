@@ -1,0 +1,14 @@
+.plotly-container{
+  width: 100%;
+  height: auto;
+  max-height: 800px;
+  overflow: hidden;
+}
+
+.plotly-container iframe{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
