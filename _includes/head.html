@@ -11,7 +11,7 @@
   <title>{{ site.title }}</title>
   {%- endif -%}
   
-  {%- if site.author-details -%}
+  {%- if site.author-details.name -%}
 	{% include rich_results.html %}
   {%- endif -%}
   <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}">
